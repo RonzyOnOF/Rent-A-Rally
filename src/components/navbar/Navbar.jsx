@@ -12,18 +12,22 @@ export const Navbar = () => {
     }
 
     return (
-        <nav className={styles.navbar}>
-            <li><NavLink to='/'><img src={logo} /></NavLink></li>
-            <ul className={isHamburgerClicked ? styles.listActive : styles.list}>
-                <li><NavLink>About</NavLink></li>
-                <li><NavLink>Our Team</NavLink></li>
-                <li><NavLink>Contact</NavLink></li>
-            </ul>
-            <div className={isHamburgerClicked ? styles.hamburgerActive : styles.hamburger} onClick={handleClick}>
-              <span className={styles.bar}></span>  
-              <span className={styles.bar}></span> 
-              <span className={styles.bar}></span> 
-            </div>
-        </nav>
+        <>
+            <nav className={styles.navbar}>
+                <li><NavLink to='/'><img src={logo} /></NavLink></li>
+                <ul className={isHamburgerClicked ? styles.listActive : styles.list}>
+                    <li id={styles.listItem}><NavLink>About</NavLink></li>
+                    <li id={styles.listItem}><NavLink>Our Team</NavLink></li>
+                    <li id={styles.listItem}><NavLink>Contact</NavLink></li>
+                </ul>
+                <div className={isHamburgerClicked ? styles.hamburgerActive : styles.hamburger} onClick={handleClick}>
+                    <span className={styles.bar}></span>  
+                    <span className={styles.bar}></span> 
+                    <span className={styles.bar}></span> 
+                </div>
+            </nav>
+        </>
+
+        
     )
 }
