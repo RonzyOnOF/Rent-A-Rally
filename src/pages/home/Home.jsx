@@ -4,8 +4,10 @@ import styles from './Home.module.css';
 export const Home = () => {
     return (
         <>
-            Home
-            <img src={civic} className={styles.coverCar} />
+            <div className={styles.frontCover} >
+                <h2>Home</h2>
+                <img src={civic} className={styles.coverCar} />
+            </div>
         </>
     )
 }
