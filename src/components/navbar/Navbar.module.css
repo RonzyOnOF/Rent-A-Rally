@@ -43,6 +43,11 @@ a:hover {
     color: red;
 }
 
+.activeNav {
+    color: red;
+}
+
+
 
 img {
     display: block;
@@ -72,6 +77,18 @@ img {
     img {
         max-width: calc(var(--navbar-height) * 2);
     }
+
+
+    /* .list {
+        flex-direction: row;
+    }
+
+    .listActive {
+        display: flex;
+        flex-direction: row;
+        
+    } */
+
 
 }
 
