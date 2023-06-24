@@ -1,40 +1,81 @@
 .frontCover {
-    margin-top: 140px;
-    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 20px;
+    height: calc(100vh - 20px);
 }
 
 
-.coverCar {
-    width: 100%;
+
+#hondaCover {
+    max-width: 100%;
 }
 
 #coverText {
-    position: absolute;
-    top: 24%;
-    left: 12%;
-    color: white;
-    font-size: 4rem;
-    width: 500px;
-    text-align: center;
-    overflow: hidden;
+    font-size: 60px;
+    color: black;
+    max-width: 420px;
 }
 
-@media screen and (max-width: 576px) {
-    #coverText {
-        top: 10%;
-        left: -25px;
-        font-size: 1.4rem;
-        width: 250px;
 
+
+
+@media screen and (max-width: 1250px) {
+
+    .frontCover {
+        gap: 0px;
+    }
+
+
+    #coverText {
+        font-size: 50px;
+        width: 360px;
+        padding-left: 45px;
+        margin-left: 16px;
     }
 }
 
-@media screen and (max-width: 992px) {
-    #coverText {
-        top: 17%;
-        left: 1%;
-        font-size: 2.4rem;
-        width: 400px;
+@media screen and (max-width: 990px) {
 
+    #coverText {
+        font-size: 40px;
+        width: 360px;
+        padding-left: 45px;
+        margin-left: 16px;
     }
+
+    #hondaCover {
+        width: 70%;
+    }
+
 }
+
+@media screen and (max-width: 670px) {
+
+
+    .frontCover {
+        flex-direction: column-reverse;
+        margin-top: -100px;
+    }
+
+    #coverText {
+        text-align: center;
+        padding-left: 0;
+        margin-top: 10px;
+        font-size: 32px;
+    }
+
+    #hondaCover {
+        width: 75%;
+        text-align: center;
+    }
+
+}
+
+
+
+
+ 

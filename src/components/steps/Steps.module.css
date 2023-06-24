@@ -1,0 +1,47 @@
+.shortDescription {
+    margin-top: 320px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.shortDescription h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.stepsContainer {
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: 70px auto;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.step {
+    text-align: center;
+    padding: 10px;
+}
+
+.step img {
+    text-align: center;
+    margin: auto;
+}
+
+.step h4 {
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .stepsContainer {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .shortDescription {
+        margin-top: 200px;
+    }
+}
+
