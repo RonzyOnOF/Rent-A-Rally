@@ -1,0 +1,103 @@
+
+.whyUsContainer {
+    margin-top: 150px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+.whyUsContainer h4 {
+    font-size: 40px;
+}
+
+.whyUsContainer img {
+    margin-top: 40px;
+    width: 70%;
+    margin: auto;
+}
+
+#sideImage {
+    position: absolute;
+    right: 0;
+    z-index: -1;
+}
+
+
+.textContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    width: 90%;
+    margin: auto;
+}
+
+
+.reasons {
+    width: 28%;
+    border: 1px solid #F7F7F7;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    height: 200px
+}
+
+
+.reasons h5 {
+    font-size: 20px;
+}
+
+
+.reasons p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 100px;
+    max-width: 380px;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 1030px) {
+
+    .reasons {
+        width: 30%;
+        height: 250px;
+    }
+    
+}
+
+
+@media screen and (max-width: 776px) {
+
+
+    .textContainer {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .reasons {
+        width: 80%;
+        height: 200px;
+    }
+    
+}
+
+
+@media screen and (max-width: 470px) {
+
+    .whyUsContainer h4 {
+        font-size: 25px;
+        width: 70%;
+        margin: auto;
+    }
+
+    .reasons {
+        height: 250px;
+    }
+}

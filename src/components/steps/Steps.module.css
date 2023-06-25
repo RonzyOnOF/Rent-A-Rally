@@ -1,11 +1,11 @@
 .shortDescription {
-    margin-top: 320px;
+    margin-top: 280px;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
 .shortDescription h3 {
-    font-size: 25px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -17,6 +17,7 @@
     justify-content: space-around;
     text-align: center;
 }
+
 
 .step {
     text-align: center;
@@ -33,15 +34,65 @@
     margin-bottom: 5px;
 }
 
+.step p {
+    width: 300px;
+    padding: 2px;
+}
+
+@media screen and (max-width: 990px) {
+
+
+    .stepsContainer {
+        width: 95%;
+    }
+
+    .shortDescription h3 {
+        font-size: 35px;
+    }
+
+    .step p {
+        width: 220px;
+    }
+
+
+
+}
+
 @media screen and (max-width: 768px) {
     .stepsContainer {
         flex-direction: column;
+    }
+
+    .step p {
+        margin: auto;
     }
 }
 
 @media screen and (max-width: 670px) {
     .shortDescription {
-        margin-top: 200px;
+        margin-top: 150px;
     }
+
 }
+
+@media screen and (max-width: 470px) {
+
+    .shortDescription h3 {
+        font-size: 25px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+
+    .step p {
+        font-size: 14px;
+    }
+
+    .step img {
+        width: 35%;
+
+    }
+
+}   
+
 

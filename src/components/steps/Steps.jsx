@@ -1,5 +1,8 @@
 import styles from './Steps.module.css';
 import stepIcon from '../../../public/images/firstStep.png';
+import step2 from '../../../public/images/step2Icon.png';
+import step3 from '../../../public/images/step3Icon.png';
+
 export const Steps = () => {
     return (
         <>
@@ -9,17 +12,17 @@ export const Steps = () => {
                     <div className={styles.step}>
                         <img src={stepIcon} />
                         <h4>Choose Car</h4>
-                        <p>Select from a wide selection of different use case cars</p>
+                        <p>Select from a wide selection of different cars tailored to your needs</p>
                     </div>
                     <div className={styles.step}>
-                        <img src={stepIcon} />
-                        <h4>Choose Car</h4>
-                        <p>Select from a wide selection of different use case cars</p>
+                        <img src={step2} />
+                        <h4>Book</h4>
+                        <p>Book online and cancel for free up to 24 hours before your trip</p>
                     </div>
                     <div className={styles.step}>
-                        <img src={stepIcon} />
-                        <h4>Choose Car</h4>
-                        <p>Select from a wide selection of different use case cars</p>
+                        <img src={step3} />
+                        <h4>Road Time</h4>
+                        <p>Have the car delivered to you or pick it up from us</p>
                     </div>
                 </div>
             </article>
