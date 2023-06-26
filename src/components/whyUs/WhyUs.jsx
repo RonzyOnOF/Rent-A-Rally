@@ -17,7 +17,7 @@ export const WhyUs = () => {
                     </div>
                     <div className={styles.reasons}>
                         <h5>Free Cancellation</h5>
-                        <p>Cancel up to 24 hours for a full refund hassle free with no fees!</p>
+                        <p>Cancel up to 24 hours for a full refund hassle-free with no fees!</p>
                     </div>
                     <div className={styles.reasons}>
                         <h5>Covered</h5>

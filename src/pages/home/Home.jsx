@@ -14,7 +14,7 @@ export const Home = () => {
         <>
             <div className={styles.frontCover} >
                 <div className={styles.frontText}>
-                    <p id={styles.coverText}>Rent as little as <strong>$35/day</strong></p>
+                    <p id={styles.coverText}>Rent as little as <strong>$25/day</strong></p>
                     <button onClick={() => navigate('/cars')}>See Cars</button>
                 </div>
                 <img id={styles.hondaCover} src={other} />
