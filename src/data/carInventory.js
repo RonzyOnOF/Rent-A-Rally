@@ -1,5 +1,5 @@
 import camryImage from '../../public/images/cars/camry.png';
-import supra from '../../public/images/cars/supra.png';
+import supra from '../../public/images/cars/supra2.png';
 import corolla from '../../public/images/cars/corolla.png';
 import civic from '../../public/images/cars/civic.png';
 import typeR from '../../public/images/cars/typeR.png';
@@ -30,21 +30,11 @@ export const inventory = [
         
     },
     {
-        make: 'Toyota',
-        model: 'Supra',
-        year: 2022,
-        image: supra,
-        cost: 50,
-        transmission: 'automatic',
-        drivetrain: 'RWD',
-        sports: true
-    },
-    {
-        make: 'Toyota',
-        model: 'Corolla',
-        year: 2020,
-        image: corolla,
-        cost: 25,
+        make: 'Nissan',
+        model: 'Altima',
+        year: 2018,
+        image: altima,
+        cost: 30,
         transmission: 'automatic',
         drivetrain: 'FWD',
         sports: false
@@ -55,6 +45,16 @@ export const inventory = [
         year: 2020,
         image: civic,
         cost: 28,
+        transmission: 'automatic',
+        drivetrain: 'FWD',
+        sports: false
+    },
+    {
+        make: 'Toyota',
+        model: 'Corolla',
+        year: 2020,
+        image: corolla,
+        cost: 25,
         transmission: 'automatic',
         drivetrain: 'FWD',
         sports: false
@@ -80,6 +80,16 @@ export const inventory = [
         sports: false
     },
     {
+        make: 'Toyota',
+        model: 'Supra',
+        year: 2022,
+        image: supra,
+        cost: 50,
+        transmission: 'automatic',
+        drivetrain: 'RWD',
+        sports: true
+    },
+    {
         make: 'Subaru',
         model: 'Impreza',
         year: 2018,
@@ -89,16 +99,6 @@ export const inventory = [
         drivetrain: 'AWD',
         sports: false
     },
-    {
-        make: 'Nissan',
-        model: 'Impreza',
-        year: 2017,
-        image: r35,
-        cost: 55,
-        transmission: 'automatic',
-        drivetrain: 'AWD',
-        sports: false
-    }, 
     {
         make: 'Nissan',
         model: 'Rogue',
@@ -111,14 +111,14 @@ export const inventory = [
     },
     {
         make: 'Nissan',
-        model: 'Altima',
-        year: 2018,
-        image: altima,
-        cost: 30,
+        model: 'GTR R35',
+        year: 2017,
+        image: r35,
+        cost: 55,
         transmission: 'automatic',
-        drivetrain: 'FWD',
+        drivetrain: 'AWD',
         sports: false
-    },
+    }, 
     {
         make: 'BMW',
         model: 'M3',

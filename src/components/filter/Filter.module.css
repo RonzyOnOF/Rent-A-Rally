@@ -1,0 +1,28 @@
+
+.formContainer {
+    margin-top: 40px;
+    text-align: center;
+    max-width: 100%;
+}
+
+#make {
+    font-size: 1rem;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+.submit {
+    padding: 5px 10px;
+    background-color: white;
+    border: 1px solid black;
+    margin-left: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 2px;
+}
+
+.submit:hover {
+    transition: 0.2s;
+    background-color: black;
+    color: white;
+}

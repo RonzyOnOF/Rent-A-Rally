@@ -28,7 +28,6 @@ export const Navbar = () => {
         setIsHamburgerClicked(false);
     }
 
-    console.log(isHamburgerClicked);
 
     return (
         <>

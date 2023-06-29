@@ -1,0 +1,52 @@
+
+.car {
+    margin-top: 50px;
+    max-width: 25%;
+    padding: 5px;
+    border: 2px solid #ebeaea;
+    border-radius: 5px;
+    position: relative;
+}
+
+.car img {
+    max-width: 90%;
+    margin: auto;
+    z-index: 1;
+    position: relative;
+}
+
+#slash {
+    z-index: 0;
+    position: absolute;
+    bottom: 0;
+    max-width: 90%;
+    right: 0;
+}
+
+.carDescription {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+}
+
+.carDescription p {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+    color: black;
+    width: 70%;
+    border-radius: 10px;
+    margin: auto;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 900px) {
+    .carDescription p {
+        font-size: 10px;
+        width: 60%;
+    }
+}
+

@@ -1,9 +1,13 @@
-
 .carPageContainer h2 {
     text-align: center;
 }
 
 .carPageContainer {
-    margin-top: 50px;
+    margin-top: 70px;
 }
+
+.headerContainer {
+    border: 2px solid red;
+}
+
 
