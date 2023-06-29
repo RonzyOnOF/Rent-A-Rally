@@ -10,13 +10,19 @@ export const Cars = () => {
     const allCars = useSelector(selectCars);
     const filteredCars = useSelector(selectFilteredCars);
 
+    
+
     return (
         <>
             <Filter />
             <div className={styles.carsContainer}>
-            {filteredCars.map(car => {
+            {filteredCars.length === 0 ? allCars.map(car => {
                 return (
-                    <Car car={car} key={car.model}/>
+                    <Car car={car} key={car.model} />
+                )
+            }) : filteredCars.map(car => {
+                return (
+                    <Car car={car} key={car.model} />
                 )
             })}
             </div>

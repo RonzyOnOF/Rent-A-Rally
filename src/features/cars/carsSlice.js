@@ -11,8 +11,12 @@ const allCars = createSlice({
     },
     reducers: {
         filterCars: (state, action) => {
-            state.filteredInventory = state.inventory.filter(car => { return car.make.toLowerCase().includes(action.payload)});
+            state.filteredInventory = state.inventory.filter(car => car.make.toLowerCase().includes(action.payload.toLowerCase()));
+        },
+        resetFilter: (state) => {
+            state.filteredInventory = [];
         }
+        
     }
 })
 
@@ -21,4 +25,5 @@ const allCars = createSlice({
 export const selectCars = state => state.cars.inventory;
 export const selectFilteredCars = state => state.cars.filteredInventory;
 export const { filterCars } = allCars.actions;
+export const { resetFilter } = allCars.actions;
 export default allCars.reducer;

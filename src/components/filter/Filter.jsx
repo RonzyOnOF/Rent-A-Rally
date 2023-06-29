@@ -1,7 +1,7 @@
 import styles from './Filter.module.css';
 import { useState } from 'react';
-import { filterCars, selectFilteredCars } from '../../features/cars/carsSlice';
-import { useSelector, useDispatch } from 'react-redux';
+import { filterCars, resetFilter } from '../../features/cars/carsSlice';
+import { useDispatch } from 'react-redux';
 
 export const Filter = () => {
 
@@ -16,6 +16,10 @@ export const Filter = () => {
     const handleSubmit = (e) => {
         e.preventDefault()
         dispatch(filterCars(query));
+    }
+
+    const handleReset = (e) => {
+        dispatch(resetFilter());
     }
 
     return (
@@ -35,7 +39,7 @@ export const Filter = () => {
                         <option>Ford</option>
                     </select>
                     <button className={styles.submit} type='submit'>Apply Filter</button>
-                    <button className={styles.submit}>Reset</button>
+                    <button className={styles.submit} type='reset' onClick={handleReset}>Reset</button>
                 </form>
             </div>
         </>

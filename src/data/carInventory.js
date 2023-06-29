@@ -13,7 +13,7 @@ import cx5 from '../../public/images/cars/cx5.png';
 import tesla from '../../public/images/cars/tesla.png';
 import porsche from '../../public/images/cars/porsche.png'
 import acura from '../../public/images/cars/acura.png'
-import focus from '../../public/images/cars/acura.png'
+import focus from '../../public/images/cars/focus.png'
 import sti from '../../public/images/cars/sti.png'
 
 
