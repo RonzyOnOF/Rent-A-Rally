@@ -38,7 +38,7 @@ export const Filter = () => {
                         <option>Acura</option>
                         <option>Ford</option>
                     </select>
-                    <button className={styles.submit} type='submit'>Apply Filter</button>
+                    <button className={styles.submit} type='submit' onClick={handleSubmit}>Apply Filter</button>
                     <button className={styles.submit} type='reset' onClick={handleReset}>Reset</button>
                 </form>
             </div>

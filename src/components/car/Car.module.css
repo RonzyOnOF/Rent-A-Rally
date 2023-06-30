@@ -23,15 +23,6 @@
     right: 0;
 }
 
-.carDescription {
-    margin-top: 5px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
-    justify-content: center;
-}
-
 .carDescription p {
     text-align: center;
     position: relative;
@@ -43,10 +34,49 @@
     font-weight: 700;
 }
 
+.carDescription {
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+#rentButton {
+    z-index: 1;
+    font-weight: 700;
+    grid-column-end: span 2;
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#rentButton:hover {
+    transition: 0.2s ease-in-out;
+    background-color: black;
+    color: white;
+}
+
+
+
 @media screen and (max-width: 900px) {
     .carDescription p {
-        font-size: 10px;
+        font-size: 12px;
         width: 60%;
     }
+
+}
+
+@media screen and (max-width: 688px) {
+    
+    .car {
+        min-width: 35%;
+    }
+
 }
 

@@ -15,6 +15,7 @@ export const Car = ({ car }) => {
                     <p>{`$${car.cost}/day`}</p>
                     <p>{car.transmission}</p>
                     <p>{car.drivetrain}</p>
+                    <button id={styles.rentButton}>Rent</button>
                 </div>
                 <img id={styles.slash} src={slash} />
             </div>
