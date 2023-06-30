@@ -78,5 +78,19 @@
         min-width: 35%;
     }
 
+    #rentButton {
+        padding: 6px 8px;
+        margin: auto;
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+    
+    .car {
+        min-width: 40%;
+    }
+
 }
 

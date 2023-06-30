@@ -1,0 +1,15 @@
+
+
+.modalContainer {
+    text-align: center;
+    border: 2px solid black;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    background-color: rgba(255, 255, 255, 0.25);
+}

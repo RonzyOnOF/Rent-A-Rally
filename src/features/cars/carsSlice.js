@@ -7,7 +7,8 @@ const allCars = createSlice({
     name: 'cars',
     initialState: {
         inventory: inventory,
-        filteredInventory: []
+        filteredInventory: [],
+        singleCar: {}
     },
     reducers: {
         filterCars: (state, action) => {
@@ -15,6 +16,9 @@ const allCars = createSlice({
         },
         resetFilter: (state) => {
             state.filteredInventory = [];
+        },
+        setSingleCar: (state, action) => {
+            state.singleCar = action.payload;
         }
         
     }
@@ -24,6 +28,8 @@ const allCars = createSlice({
 
 export const selectCars = state => state.cars.inventory;
 export const selectFilteredCars = state => state.cars.filteredInventory;
+export const selectSingleCar = state => state.cars.singleCar;
 export const { filterCars } = allCars.actions;
 export const { resetFilter } = allCars.actions;
+export const { setSingleCar } = allCars.actions;
 export default allCars.reducer;

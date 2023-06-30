@@ -11,3 +11,12 @@
 }
 
 
+@media screen and (max-width: 650px) {
+    
+    .carPageContainer h2 {
+        width: 80%;
+        margin: auto;
+    }
+}
+
+
