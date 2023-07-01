@@ -6,8 +6,11 @@
     margin-top: 70px;
 }
 
-.headerContainer {
-    border: 2px solid red;
+
+.carPageContainerModal {
+   opacity: 0.8; 
+   margin-top: 70px;
+   text-align: center;
 }
 
 

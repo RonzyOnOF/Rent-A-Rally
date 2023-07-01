@@ -1,0 +1,8 @@
+
+#path {
+    cursor: pointer;
+}
+
+#path:hover {
+    transition: 0.2s;
+}

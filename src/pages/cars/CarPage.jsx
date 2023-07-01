@@ -14,7 +14,7 @@ export const CarPage = () => {
 
     return (
         <>
-            <div className={styles.carPageContainer}>
+            <div className={modal ? styles.carPageContainerModal : styles.carPageContainer}>
                 <h2>Browse through our large collection of cars</h2>
                 <Cars />
             </div>

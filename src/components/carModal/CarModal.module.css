@@ -2,14 +2,56 @@
 
 .modalContainer {
     text-align: center;
-    border: 2px solid black;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
+    height: 86%;
+    width: 60%;
+    margin: auto;
     position: fixed;
-    top: 0;
+    top: 50px;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 3;
-    background-color: rgba(255, 255, 255, 0.25);
+    background-color: rgba(255, 255, 255, 1);
+    animation: fadein 0.3s;
+}
+
+#carPicture {
+    width: 35%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+
+header {
+    background-color: #F85E62;
+    margin: 5px;
+    padding: 5px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title {
+    margin-left: 10px;
+}
+
+#bottomSplash {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    max-width: 90%;
+    z-index: 0;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
 }
