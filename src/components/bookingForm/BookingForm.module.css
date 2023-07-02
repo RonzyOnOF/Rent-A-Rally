@@ -12,6 +12,34 @@
 
 }
 
+.calculator {
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.carDetails {
+    width: 95%;
+    margin: auto;
+}
+
+
+#submitBook {
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin: auto;
+    padding: 10px 12px;
+    border-radius: 4px;
+    border: 1px solid black;
+    cursor: pointer;
+
+}
+
 
 
 
