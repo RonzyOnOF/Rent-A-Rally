@@ -168,7 +168,20 @@ img {
     }
 
 
+}
 
+@media screen and (min-width: 2500px) {
 
+    .navbar {
+        height: 100px;
+    }
+
+    a {
+        font-size: 22px;
+    }
+
+    .list {
+        width: 400px;
+    }
 
 }

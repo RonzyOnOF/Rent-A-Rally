@@ -1,9 +1,10 @@
 import styles from './BookingForm.module.css';
 import { selectSingleCar } from '../../features/cars/carsSlice';
 import { useSelector } from 'react-redux';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
+import { CustomerForm } from '../../components/customerForm/CustomerForm';
 
-export const BookingForm = () => {
+export const BookingForm = ({ submit }) => {
 
     const currentDate = new Date().toISOString().split("T")[0];
     const car = useSelector(selectSingleCar);
@@ -41,17 +42,19 @@ export const BookingForm = () => {
                 <label htmlFor='end'>Trip End:</label>
                 <input type='date' id='start' name='tripEnd' value={endDate} min={currentDate}  onChange={handleEndDate}></input>
             </form>
-            <div className={styles.carDetails}>
+            <div className={styles.carHeader}>
                 <h4>{car.make}</h4>
                 <p>{car.model}</p>
+            </div>
+            <div className={styles.carDetails}>
                 <p>{car.transmission}</p>
                 <p>{car.drivetrain}</p>
                 <p>{car.year}</p>
             </div>
+            <CustomerForm />
             <div className={styles.calculator}>
                 <p>Estimated Price: ${price}</p>
-                <button id={styles.submitBook} type='submit' onClick={() => {console.log('car reserved')}}>Book a car</button>
-
+                <button id={styles.submitBook} type='submit' onClick={submit}>Book car</button>
             </div>
         </>
     )

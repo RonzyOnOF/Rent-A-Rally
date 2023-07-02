@@ -1,0 +1,14 @@
+.customerForm {
+    width: 95%;
+    margin: 10px auto;
+    position: relative;
+    z-index: 2;
+}
+
+.customerForm input{
+    background-color: #dbdbdb;
+    padding: 6px 8px;
+    font-size: 14px;
+    margin: 10px;
+    border: none;
+}

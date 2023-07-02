@@ -1,5 +1,4 @@
 
-
 .modalContainer {
     text-align: center;
     padding-bottom: 20px;
@@ -14,6 +13,63 @@
     z-index: 3;
     background-color: rgba(255, 255, 255, 1);
     animation: fadein 0.3s;
+}
+
+
+.modalContainerSubmitted {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 4;
+}
+
+
+.modalConfirmationContainer {
+    text-align: center;
+    color: rgb(18, 158, 18);
+    height: 26%;
+    width: 50%;
+    margin: auto;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+
+hr {
+    margin: 20px auto;
+    position: relative;
+    z-index: 3;
+    color: red;
+    width: 80%;
+}
+
+.modalConfirmationContainer p {
+    background-color: rgb(191, 233, 191);
+    padding: 4px 0 4px 10px;
+}
+
+.modalConfirmationContainer img {
+    width: 10%;
+    height: auto;
+    display: block;
+}
+
+
+.confirmationContainer {
+    background-color: rgb(191, 233, 191);
+    display: flex;
+    align-items: center;
 }
 
 #carPicture {
@@ -53,5 +109,18 @@ header {
     }
     to {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 820px) {
+
+    .confirmationContainer {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+
+    .modalConfirmationContainer img {
+        width: 12%;
     }
 }
