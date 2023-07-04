@@ -8,6 +8,8 @@
     text-decoration: none;
     overflow: hidden;
     background-color: white;
+    position: relative;
+    z-index: 3;
 }
  
 
