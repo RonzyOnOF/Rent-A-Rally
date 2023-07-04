@@ -1,0 +1,19 @@
+
+.employeeContainer {
+    width: 25%;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4.5px hsl(0deg 0% 0% / 0.43);
+    margin: 40px auto;
+}
+
+.employeeContainer img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    border: 2px solid #F85E62;
+}
