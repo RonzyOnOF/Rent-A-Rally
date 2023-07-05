@@ -15,6 +15,7 @@ export const Car = ({ car }) => {
 
     }
 
+
     return (
         <>
             <div className={styles.car}>

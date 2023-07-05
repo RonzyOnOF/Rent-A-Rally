@@ -6,8 +6,7 @@ import { useDispatch } from 'react-redux';
 export const Filter = () => {
 
     const dispatch = useDispatch();
-    const [query, setQuery] = useState('');
-    
+    const [query, setQuery] = useState('Toyota');
 
     const handleChange = (e) => {
         setQuery(e.target.value);
@@ -26,7 +25,7 @@ export const Filter = () => {
         <>
             <div className={styles.formContainer} >
                 <form onSubmit={handleSubmit}>
-                    <select name='make' id={styles.make} onChange={handleChange} value={query}>
+                    <select name='make' id={styles.make} onChange={handleChange} value={query} >
                         <option>Toyota</option>
                         <option>Honda</option>
                         <option>Subaru</option>

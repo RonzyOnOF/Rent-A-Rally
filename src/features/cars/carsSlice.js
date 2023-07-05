@@ -7,7 +7,7 @@ const allCars = createSlice({
     name: 'cars',
     initialState: {
         inventory: inventory,
-        filteredInventory: [],
+        filteredInventory: [], 
         singleCar: {}
     },
     reducers: {

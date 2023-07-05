@@ -75,7 +75,7 @@
 @media screen and (max-width: 688px) {
     
     .car {
-        min-width: 35%;
+        min-width: 40%;
     }
 
     #rentButton {
@@ -84,13 +84,18 @@
         width: 80%;
     }
 
+    .carDescription {
+        min-height: 171px;
+    }
+
 }
 
 @media screen and (max-width: 428px) {
     
     .car {
-        min-width: 40%;
+        min-width: 70%;
     }
+
 
 }
 
