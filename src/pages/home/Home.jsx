@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 
 import { Steps } from '../../components/steps/Steps';
 import { WhyUs } from '../../components/whyUs/WhyUs';
-
+import { Comments } from '../../components/comment/Comments';
 export const Home = () => {
 
     const navigate = useNavigate();
@@ -21,6 +21,7 @@ export const Home = () => {
             </div>
             <Steps />
             <WhyUs />
+            <Comments />
         </>
     )
 }

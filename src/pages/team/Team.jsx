@@ -5,8 +5,8 @@ import { Employees } from '../../components/employee/Employees';
 export const Team = () => {
     return (
         <>
+            <h2 id={styles.teamHeader}>Meet Our Team</h2>
             <div className={styles.teamPageContainer}>
-                <h2>Meet Our Team</h2>
                 <Employees />
             </div>
         </>
