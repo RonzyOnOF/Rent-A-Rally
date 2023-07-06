@@ -7,7 +7,8 @@ export const Comments = () => {
 
     return (
         <>
-            <h4 id={styles.header}>Customer Tesimonials</h4>
+            <h4 id={styles.header}>Tesimonials</h4>
+            <p id={styles.subHeader}>Hear it from some of our many clients</p>
             <div className={styles.commentsContainer}>
                 {reviews.map(review => {
                     return (

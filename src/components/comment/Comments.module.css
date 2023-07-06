@@ -12,6 +12,11 @@
     font-size: 35px;
     text-align: center;
     position: relative;
-    margin: 100px auto;
+    margin: 100px auto 10px;
+}
+
+#subHeader {
+    text-align: center;
+    margin: 0 auto 70px;
 }
 
