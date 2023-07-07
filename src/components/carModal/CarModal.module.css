@@ -125,3 +125,17 @@ header {
         width: 12%;
     }
 }
+
+@media screen and (max-width: 724px) {
+
+    .modalContainer {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    #title {
+        font-size: 25px;
+    }
+}
