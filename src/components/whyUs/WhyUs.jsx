@@ -1,6 +1,6 @@
 import styles from './WhyUs.module.css';
-import carTrio from '../../../public/images/carTrio.png';
-import sideImage from '../../../public/images/background4.png';
+import carTrio from '../../images/carTrio.png';
+import sideImage from '../../images/background4.png';
 
 export const WhyUs = () => {
 

@@ -1,20 +1,20 @@
-import camryImage from '../../public/images/cars/camry.png';
-import supra from '../../public/images/cars/supra2.png';
-import corolla from '../../public/images/cars/corolla.png';
-import civic from '../../public/images/cars/civic.png';
-import typeR from '../../public/images/cars/typeR.png';
-import forester from '../../public/images/cars/subaruForest.png'
-import impreza from '../../public/images/cars/impreza.png';
-import r35 from '../../public/images/cars/r35.png';
-import rogue from '../../public/images/cars/nissanRogue.png';
-import altima from '../../public/images/cars/altima.png';
-import m3 from '../../public/images/cars/m3.png';
-import cx5 from '../../public/images/cars/cx5.png';
-import tesla from '../../public/images/cars/tesla.png';
-import porsche from '../../public/images/cars/porsche.png'
-import acura from '../../public/images/cars/acura.png'
-import focus from '../../public/images/cars/focus.png'
-import sti from '../../public/images/cars/sti.png'
+import camryImage from '../images/cars/camry.png';
+import supra from '../images/cars/supra2.png';
+import corolla from '../images/cars/corolla.png';
+import civic from '../images/cars/civic.png';
+import typeR from '../images/cars/typeR.png';
+import forester from '../images/cars/subaruForest.png'
+import impreza from '../images/cars/impreza.png';
+import r35 from '../images/cars/r35.png';
+import rogue from '../images/cars/nissanRogue.png';
+import altima from '../images/cars/altima.png';
+import m3 from '../images/cars/m3.png';
+import cx5 from '../images/cars/cx5.png';
+import tesla from '../images/cars/tesla.png';
+import porsche from '../images/cars/porsche.png'
+import acura from '../images/cars/acura.png'
+import focus from '../images/cars/focus.png'
+import sti from '../images/cars/sti.png'
 
 
 export const inventory = [

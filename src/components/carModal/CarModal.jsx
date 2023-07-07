@@ -6,8 +6,8 @@ import { SingleCar } from '../../components/singleCar/SingleCar';
 import { Cross } from '../../components/Cross/Cross';
 import { BookingForm } from '../../components//bookingForm/BookingForm';
 import { useState } from 'react';
-import bottomLeftSplash from '../../../public/images/bottomLeft4.png'
-import email from '../../../public/images/email.png';
+import bottomLeftSplash from '../../images/bottomLeft4.png'
+import email from '../../images/email.png';
 export const CarModal = () => {
 
     const [isSubmitted, setIsSubmitted] = useState(false);

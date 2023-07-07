@@ -1,6 +1,6 @@
-import stephen from '../../public/images/people/stephen.png';
-import courtney from '../../public/images/people/courtney2.png';
-import connor from '../../public/images/people/connor2.png';
+import stephen from '../images/people/stephen.png';
+import courtney from '../images/people/courtney2.png';
+import connor from '../images/people/connor2.png';
 
 
 export const employeeData = [

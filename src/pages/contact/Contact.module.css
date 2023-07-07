@@ -5,7 +5,7 @@
     position: relative;
     height: calc(100vh - 80px);
     overflow: auto;
-    background-image: url('../../../public/images/svg/blob-scene-haikei.svg');
+    background-image: url('../../images/svg/blob-scene-haikei.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

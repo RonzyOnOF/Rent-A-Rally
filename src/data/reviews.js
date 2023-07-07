@@ -1,5 +1,5 @@
-import dom from '../../public/images/people/domToretto.png';
-import guy from '../../public/images/people/randomGuy.png';
+import dom from '../images/people/domToretto.png';
+import guy from '../images/people/randomGuy.png';
 
 export const reviews = [
     {

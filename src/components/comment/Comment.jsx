@@ -1,6 +1,6 @@
 
 import styles from './Comment.module.css';
-import quotes from '../../../public/images/background/left-quotes-sign.png';
+import quotes from '../../images/background/left-quotes-sign.png';
 
 export const Comment = ({ pfp, text, name }) => {
 

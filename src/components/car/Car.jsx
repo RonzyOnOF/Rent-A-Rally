@@ -1,4 +1,4 @@
-import slash from '../../../public/images/backgroundSlash.png';
+import slash from '../../images/backgroundSlash.png';
 
 import styles from './Car.module.css';
 import { toggleModal } from '../../features/modal/modalSlice';

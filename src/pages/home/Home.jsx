@@ -1,5 +1,4 @@
-import other from '../../../public/images/hondaCoverFinal.png';
-import smallCivic from '../../../public/images/smallCivicCover.png';
+import other from '../../images/hondaCoverFinal.png';
 import styles from './Home.module.css';
 import { useNavigate } from 'react-router-dom';
 

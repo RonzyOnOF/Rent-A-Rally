@@ -1,7 +1,7 @@
 import styles from './Steps.module.css';
-import stepIcon from '../../../public/images/firstStep.png';
-import step2 from '../../../public/images/step2Icon.png';
-import step3 from '../../../public/images/step3Icon.png';
+import stepIcon from '../../images/firstStep.png';
+import step2 from '../../images/step2Icon.png';
+import step3 from '../../images/step3Icon.png';
 
 export const Steps = () => {
     return (

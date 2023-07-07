@@ -1,7 +1,7 @@
 
 .aboutPageContainer {
     text-align: center;
-    background-image: url('../../../public/images/svg/wave-haikei.svg');
+    background-image: url('../../images/svg/wave-haikei.svg');
     background-repeat: no-repeat;
     background-size: cover;
 }

@@ -1,7 +1,7 @@
 import styles from './Contacts.module.css';
-import email from '../../../public/images/contact/emailContact.png';
-import phone from '../../../public/images/contact/phoneContact.png';
-import chat from '../../../public/images/contact/chatContact.png';
+import email from '../../images/contact/emailContact.png';
+import phone from '../../images/contact/phoneContact.png';
+import chat from '../../images/contact/chatContact.png';
 import { motion } from 'framer-motion';
 
 
