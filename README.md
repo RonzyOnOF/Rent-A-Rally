@@ -1,4 +1,3 @@
 # Rent-A-Rally
 
-coverthumb.PNG
-![alt text](../)
+![alt text](./src/images/coverthumb.PNG)
