@@ -12,7 +12,7 @@ export const Comments = () => {
             <div className={styles.commentsContainer}>
                 {reviews.map(review => {
                     return (
-                        <Comment pfp={review.image} name={review.name} text={review.text} />
+                        <Comment pfp={review.image} name={review.name} text={review.text} key={review.name} />
                     )
                 })}
             </div>

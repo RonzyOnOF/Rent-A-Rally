@@ -4,17 +4,24 @@ import styles from './Car.module.css';
 import { toggleModal } from '../../features/modal/modalSlice';
 import { useDispatch } from 'react-redux';
 import { setSingleCar  } from '../../features/cars/carsSlice';
+import { useState, useEffect } from 'react';
 
 export const Car = ({ car }) => {
 
     const dispatch = useDispatch();
+    const [isLoading, setIsLoading] = useState(true);
+
+
     
     const handleRentButton = () => {
         dispatch (setSingleCar(car));
         dispatch(toggleModal());
-
     }
 
+
+
+
+    
 
     return (
         <>
