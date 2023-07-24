@@ -2,7 +2,7 @@
 import { Filter } from '../../components/filter/Filter';
 import { Car } from '../../components/car/Car';
 import styles from './Cars.module.css';
-import { selectCars, selectFilteredCars } from '../../features/cars/carsSlice';
+import { selectCars, selectFilteredCars, selectIsLoading } from '../../features/cars/carsSlice';
 import { useSelector } from 'react-redux';
 import { motion } from 'framer-motion';
 
@@ -10,12 +10,13 @@ export const Cars = () => {
 
     const allCars = useSelector(selectCars);
     const filteredCars = useSelector(selectFilteredCars);
+    const isLoading = useSelector(selectIsLoading);
     
 
     return (
         <>
-            
             <Filter />
+            {isLoading && <div className={styles.ldsRing}><div></div><div></div><div></div><div></div></div>}
             <motion.div 
                 className={styles.carsContainer}
                 initial={{opacity: 0, translateY: 50}} 

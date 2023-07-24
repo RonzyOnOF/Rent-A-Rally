@@ -2,7 +2,11 @@
 import styles from './CarPage.module.css';
 import { Cars } from '../../features/cars/Cars';
 import { selectModal } from '../../features/modal/modalSlice';
-import { useSelector } from 'react-redux';
+import { setInventory } from '../../features/cars/carsSlice';
+import { useSelector, useDispatch } from 'react-redux';
+import { inventory } from '../../data/carInventory';
+import { useEffect } from 'react';
+
 import { SkeletonTheme } from 'react-loading-skeleton';
 import "react-loading-skeleton/dist/skeleton.css";
 
@@ -12,7 +16,13 @@ import { CarModal } from '../../components/carModal/CarModal';
 
 export const CarPage = () => {
 
+    const dispatch = useDispatch();
+
     const modal = useSelector(selectModal);
+
+    useEffect(() => {
+        dispatch(setInventory(inventory));
+    }, [])
     
 
     return (
