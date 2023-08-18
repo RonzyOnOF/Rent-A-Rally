@@ -1,0 +1,39 @@
+.loadingSkeletonContainer {
+    background-color: rgb(153, 153, 153);
+    margin-top: 50px;
+    width: 25%;
+    border-radius: 5px;
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    
+    .loadingSkeletonContainer {
+        height: 290px;
+    }
+}
+
+@media screen and (max-width: 688px) {
+
+    .loadingSkeletonContainer {
+        width: 40%;
+        height: 200px;
+    }
+
+}
+
+@media screen and (max-width: 428px) {
+
+    .loadingSkeletonContainer {
+        width: 70%;
+        height: 190px;
+    }
+}
+
+
+
+

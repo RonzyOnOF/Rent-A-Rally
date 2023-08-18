@@ -8,6 +8,7 @@
     position: relative;
 }
 
+
 .car img {
     max-width: 90%;
     margin: auto;
@@ -67,8 +68,9 @@
     border: 2px solid red;
 }
 
-.skelContainer {
-    width: 100%;
+
+.placeholder {
+    display: none;
 }
 
 
