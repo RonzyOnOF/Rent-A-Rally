@@ -1,4 +1,3 @@
-
 .employeeContainer {
     width: 25%;
     text-align: center;
@@ -12,7 +11,17 @@
     overflow: hidden;
 }
 
-.employeeContainer img {
+
+.pfpLoadingSkeleton {
+    width: 60%;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto 20px;
+    background-color: rgb(48, 46, 46);
+}
+
+
+.pfp {
     width: 60%;
     height: auto;
     border-radius: 50%;
