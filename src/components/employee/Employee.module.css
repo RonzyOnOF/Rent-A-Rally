@@ -13,11 +13,13 @@
 
 
 .pfpLoadingSkeleton {
-    width: 60%;
-    height: 150px;
+    padding-left: 60%;
+    padding-top: 60%;
     border-radius: 50%;
+    width: 25%;
+    height: auto;
     margin: 0 auto 20px;
-    background-color: rgb(48, 46, 46);
+    background-color: rgb(146, 142, 142);
 }
 
 
